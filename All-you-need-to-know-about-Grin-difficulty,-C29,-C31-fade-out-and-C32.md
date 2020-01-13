@@ -23,7 +23,7 @@ Well this is the tricky part. First you need to know that there are two groups o
 
 The proof of work schemes from this first group have most of the time a constant scale factor. For C**n** this is ![n * 2^(n-23)](https://latex.codecogs.com/gif.latex?n%20%5Ccdot%202%5E%7Bn-23%7D). So for C31 we have 31 \* 256 = 7936, C32 has 32 \* 512 = 16384, C33 has 33 \* 1024 = 33792 ....
 
-So to say: any C32 share has a ~2.064 times higher chance to create a block then a C31 one and also every serious pool should reward a C32 higher by this factor. Unfortunately it is a bit more then this 2.064 times more difficult to create a C32 share. That is why no one mines it, because C31 is plainly more profitable.
+So to say: any C32 share has a ~2.065 times higher chance to create a block then a C31 one and also every serious pool should reward a C32 higher by this factor. Unfortunately it is a bit more then this 2.065 times more difficult to create a C32 share. That is why no one mines it, because C31 is plainly more profitable.
 
 By the way if you are massively bored and have enough free RAM (~64TB+) you could try to find a cycle on a C49 graph which at the current grin difficulty would be an instantaneous block no matter how low the share difficulty is (because the scale factor is high enough). Good luck.
 
