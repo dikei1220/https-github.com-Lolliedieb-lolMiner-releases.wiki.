@@ -39,7 +39,7 @@ Nothing? Well we assumed that no one mines C32... but it will happen that someon
 This then will be the slow death of C31, because C31 and C32 are competing for the same blocks while C29 has its own share. So when C32 profitability surpasses the one of C31 more and more miners will switch over and at some point the last C31 block will be mined. We already miss you good friend.
 
 ## What do I need to do now as C31 miner?
-In the beginning: Nothing at all - I think is January and also first half of February you are very save on that. Till then you may start some benchmark runs comparing C31 and C32 on your card to compare how much slower C32 is compared to C31. Then monitor the C31 fade out on explorers and see when 16384 / C31 Scale goes above your speed difference ratio. Hint: On 16G cards I would expect the switching time early March, 8G rather later that month or April, but all based on the current miner speeds.  
+In the beginning: Nothing at all - I think in January and also first half of February you will be fine with that. Till then you may start some benchmark runs comparing C31 and C32 on your card to compare how much slower C32 is compared to C31. Then monitor the C31 fade out on explorers and see when 16384 / C31 Scale goes above your speed difference ratio. Hint: On 16G cards I would expect the switching time early March, 8G rather later that month or April, but all based on the current miner speeds.  
 
 
    
