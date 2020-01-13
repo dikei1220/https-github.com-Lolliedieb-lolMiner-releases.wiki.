@@ -13,12 +13,12 @@ In fact what the miner and a pool will calculate is ![**d** = 2^256 / **n**](htt
 
 Usually the miner will compare this difficulty with the one given by the pool if its good enough to be send to the pool. If the pool says diff 1 is ok to be submitted, then every solution found passes this threshold. In case of pool diff 4 only approx every 4th share will make it over this barrier. The pool uses this mechanism to control how many shares it gets from you and thus how much traffic it receives. The rule here is: the higher the pool diff the less traffic it receives, but also the harder it is for the pool to accurately estimate your hash rate.   
 
-## About Scale Rates
+## About Scale Factors
 Now we know when the miner will send a share to the pool. But when can the pool create a block? On every normal chain with only one PoW for this there is the so called network difficulty controlling this. A block then can be created when ever ShareDiff >= NetworkDiff. Easy isn't it?
 
 Well for Grin this doesn't work, because we have more then just one PoW. In Grin we need to take the so called scale factors into account, that modify the condition for block creation to  ShareDiff \* PoW-Scale >= NetworkDiff. So there are two factors determining if a block can be created: the one if the NetworkDiff, which mainly has the job to keep the average number of blocks near one block per minute. The second are the scale factors which have the job to balance how many blocks of which of the proof of were schemes are approximately created per day.
 
-## And how high this Scale factors?
+## And how high are this Scale Factors?
 Well this is the tricky part. First you need to know that there are two groups of PoWs in Grin. The first group are the primary PoW schemes, which are C31+ - the plus stands for that also higher instances like C32, C33, C34 ... are in this group. **Common mistake:** many believe C32 / 33... need to start on the chain. Nope, they are always there and can be mined. But they were too unprofitable ;)
 
 The proof of work schemes from this first group have most of the time a constant scale factor. For C**n** this is ![n * 2^(n-23)](https://latex.codecogs.com/gif.latex?n%20%5Ccdot%202%5E%7Bn-23%7D). So for C31 we have 31 \* 256 = 7936, C32 has 32 \* 512 = 16384, C33 has 33 \* 1024 = 33792 ....
