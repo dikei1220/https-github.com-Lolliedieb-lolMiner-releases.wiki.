@@ -9,7 +9,7 @@ To understand the fade out we need to know how Grin balances the number of C29/C
 
 This is rather simple: When ever your miner finds a 42 cycle on a graph (this is what it searches for) the solution found is put into a hash function (Blake2B) and the result is a number **n** between 0 and 2^256-1. Yes, that is a huge number. This number decides how good your found solution is. The smaller it is, the better.
 
-In fact what the miner and a pool will calculate is ![**d** = 2^256 / **n**](https://latex.codecogs.com/gif.latex?d%20%3D%20%5Cfrac%7B2%5E%7B256%7D%7D%7Bn%7D). This is the difficulty of your share. Here its: the higher it is, the better for your or the pool.
+In fact what the miner and a pool will calculate is ![**d** = 2^256 / **n**](https://latex.codecogs.com/gif.latex?d%20%3D%20%5Cfrac%7B2%5E%7B256%7D%7D%7Bn%7D). This is the difficulty of your share. Here its: the higher it is, the better for you or rather the pool you mine on.
 
 Usually the miner will compare this difficulty with the one given by the pool if its good enough to be send to the pool. If the pool says diff 1 is ok to be submitted, then every solution found passes this threshold. In case of pool diff 4 only approx every 4th share will make it over this barrier. The pool uses this mechanism to control how many shares it gets from you and thus how much traffic it receives. The rule here is: the higher the pool diff the less traffic it receives, but also the harder it is for the pool to accurately estimate your hash rate.   
 
