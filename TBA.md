@@ -4,7 +4,9 @@ Mining Grin is not straight forward as there are currently three relevant proof 
 
 Thus the proof of work that is best to mine changes frequently. In order to ease the user experience and to maximize the profitability lolMiner 0.9.7 introduces an auto-switcher between the three algorithms, that determines the best algorithm for your rig based on the speed of its speed and the current active reward scaling factors. 
 
-To use the new feature you will require a pool that allows to mine the different proof of work schemes on the same port. Below you can find a list of pools that were tested with the last release. Then there are two methods to run the auto switching function.
+To use the new feature you will require a pool that allows to mine the different proof of work schemes on the same port. Below you can find a list of pools that were tested with the last release. Note that some pools will need a reconnect when switching the algorithms. For this case the parameter is mentioned in the supported pools list.
+
+There are two methods to run the auto switching function.
 
 ## Usage with Automatic Benchmarks
 
