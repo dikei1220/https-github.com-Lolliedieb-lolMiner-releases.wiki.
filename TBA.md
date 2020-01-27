@@ -10,7 +10,7 @@ To use the new feature you will require a pool that allows to mine the different
 
 To run the miner with an automatic benchmark of the algorithms you need to start the miner by using
 
-`lolMiner --coin GRIN-AUTO --autobench 1 --pool <yourPool>:<poolPort> --user <yourUserdata>`
+`lolMiner.exe --coin GRIN-AUTO --autobench 1 --pool <yourPool>:<poolPort> --user <yourUserdata>`
 
 In this case the miner will run each of the three algorithms for 80 seconds and determine its performance during this period. Afterwards it will show the estimated performances and switch to the most profitable among the three algorithms.
 
@@ -18,7 +18,7 @@ In this case the miner will run each of the three algorithms for 80 seconds and 
 
 If the performances of the algorithms are known or for a more advanced setup you can start the miner with the following parameters 
 
-`lolMiner --coin GRIN-AUTO --c29speed <C29M performance> --c31speed <C31 performance> --c32speed <C32 performance> --pool <yourPool>:<poolPort> --user <yourUserdata>`
+`lolMiner.exe --coin GRIN-AUTO --c29speed <C29M performance> --c31speed <C31 performance> --c32speed <C32 performance> --pool <yourPool>:<poolPort> --user <yourUserdata>`
 
 In this case the miner will not run a benchmark and instead use the values given by the user. Then the miner will switch to the most profitable algorithm according to the given numbers. 
 
