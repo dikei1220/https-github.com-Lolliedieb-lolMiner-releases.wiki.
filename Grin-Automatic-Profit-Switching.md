@@ -36,6 +36,7 @@ This mode has advantages and disadvantages over the automatic benchmark. On the 
 |Grinmint |      All     |           none
 
 (1) C32 shares are accepted and listed as C31 ones
+
 (2) C32 shares are accepted but not yet credited
 
 Note about the reconnectOnSwitch option: Some pools may require this switch because else the first submitted shares after a switch may get rejected. In this case the total switch time is approx 3 seconds instead of some milliseconds. During normal operation the miner only should switch few times a day, such that the reconnect is no issue, but during the benchmark phase the pool will in total reconnect four times. 
