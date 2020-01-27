@@ -31,6 +31,9 @@ This mode has advantages and disadvantages over the automatic benchmark. On the 
 | Pool    |   Algorithms |      Options Required
 --- | --- | ---
 |2Miners  |      All     |  --reconnectOnSwitch 1
-|btc.com  |   C29M & C31 |           none
-|F2 Pool  |   C29M & C31 |           none
+|btc.com  |  C29M & C31 (1) |           none
+|F2 Pool  |  C29M & C31 (2) |           none
 |Grinmint |      All     |           none
+
+(1) C32 shares are accepted and listed as C31 ones
+(2) C32 shares are accepted but not yet credited
