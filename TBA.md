@@ -8,6 +8,6 @@ Thus the proof of work that is best to mine changes frequently. In order to ease
 
 | Pool    |   Algorithms |      Options Required
 --- | --- | ---
-|2Miners  |      All     |  --reconnect-on-switch
+|2Miners  |      All     |  --reconnectOnSwitch 1
 |F2 Pool  |   C29M & C31 |           none
-|Grinmint |      All     |          none
+|Grinmint |      All     |           none
