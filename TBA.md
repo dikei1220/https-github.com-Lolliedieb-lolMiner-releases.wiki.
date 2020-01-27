@@ -6,7 +6,8 @@ Thus the proof of work that is best to mine changes frequently. In order to ease
 
 ## List of Supported Pools
 
-Pool        Algorithms       Options Required
-2Miners         All       --reconnect-on-switch
-F2 Pool     C29M & C31            none
-Grinmint        All               none
+| Pool    |   Algorithms |      Options Required
+--- | --- | ---
+|2Miners  |      All     |  --reconnect-on-switch
+|F2 Pool  |   C29M & C31 |           none
+|Grinmint |      All     |          none
