@@ -31,5 +31,6 @@ This mode has advantages and disadvantages over the automatic benchmark. On the 
 | Pool    |   Algorithms |      Options Required
 --- | --- | ---
 |2Miners  |      All     |  --reconnectOnSwitch 1
+|btc.com  |   C29M & C31 |           none
 |F2 Pool  |   C29M & C31 |           none
 |Grinmint |      All     |           none
