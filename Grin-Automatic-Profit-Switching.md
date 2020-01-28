@@ -14,7 +14,7 @@ To run the miner with an automatic benchmark of the algorithms you need to start
 
 `lolMiner.exe --coin GRIN-AUTO --autobench 1 --pool <yourPool>:<poolPort> --user <yourUserdata>`
 
-In this case the miner will run each of the three algorithms for 80 seconds and determine its performance during this period. Afterwards it will show the estimated performances and switch to the most profitable among the three algorithms.
+In this case the miner will run each of the three algorithms for at least 80 seconds (until the next job from pool arrives after 80 seconds have passed) and determine its performance during this period. Afterwards it will show the estimated performances and switch to the most profitable among the three algorithms.
 
 ## Usage without Automatic Benchmarks
 
