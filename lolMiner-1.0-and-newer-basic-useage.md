@@ -1,4 +1,6 @@
-This page describes to mine with lolMiner 1.0 and newer.
+This page describes to start basic mining with lolMiner 1.0 and newer.
+
+For a detailed list of more lolMiner parameters you can check `lolMiner -h`.
 
 ## Basic parameters in command line
 
