@@ -1,6 +1,6 @@
 ## English:
 * [lolMiner 1.25 Basic usage ](https://github.com/Lolliedieb/lolMiner-releases/releases/tag/1.17)
-* [lolMiner 1.25 Extra Parameters ]
+* [lolMiner 1.25 Extra Parameters ] (https://github.com/Lolliedieb/lolMiner-releases/wiki/lolMiner-1.25---Extra-Parameters-(English))
 * [Dual Mining & Splitting modes ]
 * [Fix Clock ]
 
