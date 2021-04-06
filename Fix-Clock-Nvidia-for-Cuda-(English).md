@@ -1,8 +1,8 @@
-To fix the clock Power Limit, doesn't need to be fixed. If you specify a Power Limit and is too low, the clock will not get fixed. So It is a good recomendation to put a high Power Limit and reduce the Watts with the Fix Clock Solution:
+To fix the clock Power Limit, doesn't need to be fixed. If you specify a Power Limit and is too low, the clock will not get fixed. So It is a good recomendation to put a high Power Limit and reduce the Watts with the Fix Clock Solution, only for Turing and Ampere.
 
 _Linux:_
 
-**HiveOS:** You have to put the direct value in the +Core Clock Mhz, in this example we are putting 750Mhz to the RTX 3070
+**HiveOS:** You have to put the direct value in the +Core Clock Mhz, in this example we are putting 750Mhz to the RTX 3070, only avaliable after 0.6-202@210331.
 
 <a href="https://ibb.co/4SnJJxs"><img src="https://i.ibb.co/YdFbbGD/HiveOS.jpg" alt="HiveOS" border="0"></a>
 
