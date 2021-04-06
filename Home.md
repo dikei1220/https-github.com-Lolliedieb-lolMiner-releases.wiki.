@@ -10,7 +10,7 @@ Many thanks for using lolMiner
 * [lolMiner 1.25 uso básico](https://github.com/Lolliedieb/lolMiner-releases/wiki/lolMiner-1.25-uso-b%C3%A1sico-(Espa%C3%B1ol))
 * [lolMiner 1.25 Parámetros Extra ](https://github.com/Lolliedieb/lolMiner-releases/wiki/lolMiner-1.25--Par%C3%A1metros-Extra-(Espa%C3%B1ol))
 * [Modo dual & modo split](https://github.com/Lolliedieb/lolMiner-releases/wiki/Modo-dual-&-modo-split-(Espa%C3%B1ol))
-* [Fix Clock](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-(Espa%C3%B1ol))
+* [Fix Clock](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-para-Cuda--(Espa%C3%B1ol))
 
 Muchas gracias por usar lolMiner
 
