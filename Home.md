@@ -1,7 +1,16 @@
-# lolMiner online manual
+## English:
+* [lolMiner 1.25 Basic usage ](https://github.com/Lolliedieb/lolMiner-releases/releases/tag/1.17)
+* [lolMiner 1.25 Extra Parameters ]
+* [Dual Mining & Splitting modes ]
+* [Fix Clock ]
 
-This online manual is valid for lolMiner 1.0 and newer. It is work in progress and thus growing.
+Many thanks for using lolMiner
 
-### Table of content
+## Español:
+* [lolMiner 1.25 uso básico ] 
+* [lolMiner 1.25 Parámetros Extra ]
+* [Modo dual & modo split ]
+* [Fix Clock ]
 
-[lolMiner basic usage](https://github.com/Lolliedieb/lolMiner-releases/wiki/lolMiner-1.0-and-newer-basic-useage)
+Muchas gracias por usar lolMiner
+
