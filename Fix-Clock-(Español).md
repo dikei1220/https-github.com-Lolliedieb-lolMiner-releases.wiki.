@@ -1,0 +1,1 @@
+nvidia-smi -i $GPU -lgc $VALUE
