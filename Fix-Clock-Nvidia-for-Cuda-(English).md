@@ -14,9 +14,6 @@ _Linux:_
 
 <a href="https://ibb.co/DR0kMDt"><img src="https://i.ibb.co/P6q4WZN/RaveOS.jpg" alt="RaveOS" border="0"></a>
 
-**Manually**: nvidia-smi -i $GPU -lgc $VALUE
-
-
 _Windows 10:_
 
 **Msi Afterburner:**
@@ -34,3 +31,17 @@ CTRL + L: lock voltage and frequency to the highlighted dot
 Tab / Shift-Tab: select next/previous dot
 
 CTRL + UP / CTRL + DOWN: increase/decrease the frequency of the selected dot by 10 (it would be 1 without ctrl)
+
+**Manually**: That will work for _Linux_ and _Windows 10_ nvidia-smi -i $GPU -lgc $VALUE
+
+Values: 
+| GPU        | Range       | 
+| ------------- |:-------------:| 
+| 2070 | 1000 - 1050 |
+| 2080 | 1110 - 1160 |
+| 3060 (1) | 1070 - 1120 |
+| 3060ti | 1300 - 1350 |
+| 3070 | 750 - 800 |
+| 3080 | 1010 - 1060 |
+
+(1) Windows with 470.05 Drivers
