@@ -38,8 +38,8 @@ CTRL + ARRIBA / CTRL + ABAJO: aumenta/disminuye la frecuencia del punto seleccio
 Values: 
 | GPU        | Range       | 
 | ------------- |:-------------:| 
-| 2070 | 1000 - 1050 |
-| 2080 | 1110 - 1160 |
+| 2070 Super | 1000 - 1050 |
+| 2080 Super | 1110 - 1160 |
 | 3060 (1) | 1070 - 1120 |
 | 3060ti | 1300 - 1350 |
 | 3070 | 750 - 800 |
