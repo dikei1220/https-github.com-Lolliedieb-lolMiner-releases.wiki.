@@ -14,8 +14,6 @@ _Linux:_
 
 <a href="https://ibb.co/DR0kMDt"><img src="https://i.ibb.co/P6q4WZN/RaveOS.jpg" alt="RaveOS" border="0"></a>
 
-**Manually**: nvidia-smi -i $GPU -lgc $VALUE
-
 
 _Windows 10:_
 
@@ -34,3 +32,17 @@ CTRL + L: bloquea el voltaje y la frecuencia en el punto resaltado
 Tab / Shift-Tab: selecciona el punto siguiente/anterior
 
 CTRL + ARRIBA / CTRL + ABAJO: aumenta/disminuye la frecuencia del punto seleccionado en 10 (sería 1 sin ctrl)
+
+**Manualmente**: Esto funciona en _Linux_ y en _Windows 10_ `nvidia-smi -i $GPU -lgc $VALUE`
+
+Values: 
+| GPU        | Range       | 
+| ------------- |:-------------:| 
+| 2070 | 1000 - 1050 |
+| 2080 | 1110 - 1160 |
+| 3060 (1) | 1070 - 1120 |
+| 3060ti | 1300 - 1350 |
+| 3070 | 750 - 800 |
+| 3080 | 1010 - 1060 |
+
+(1) Windows con 470.05 Drivers
