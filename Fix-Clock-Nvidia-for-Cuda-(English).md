@@ -32,7 +32,7 @@ Tab / Shift-Tab: select next/previous dot
 
 CTRL + UP / CTRL + DOWN: increase/decrease the frequency of the selected dot by 10 (it would be 1 without ctrl)
 
-**Manually**: That will work for _Linux_ and _Windows 10_ nvidia-smi -i $GPU -lgc $VALUE
+**Manually**: That will work for _Linux_ and _Windows 10_ `nvidia-smi -i $GPU -lgc $VALUE`
 
 Values: 
 | GPU        | Range       | 
