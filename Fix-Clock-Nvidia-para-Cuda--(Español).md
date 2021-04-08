@@ -10,9 +10,9 @@ _Linux:_
 
 <a href="https://ibb.co/2ybwzMv"><img src="https://i.ibb.co/s2BhT1K/MMPOS.jpg" alt="MMPOS" border="0"></a>
 
-**RaveOS:** En Set hay que especificar este parámetro: `--fixclk=value`, en este ejemplo serán 750Mhz a una RTX 3070
+**RaveOS:** En Set hay que especificar este parámetro: `oc --fixclk=value`, en este ejemplo serán 750Mhz a una RTX 3070
 
-<a href="https://ibb.co/DR0kMDt"><img src="https://i.ibb.co/P6q4WZN/RaveOS.jpg" alt="RaveOS" border="0"></a>
+<a href="https://ibb.co/zFBSNQP"><img src="https://i.ibb.co/m02HSbh/RaveOS.jpg" alt="RaveOS" border="0"></a>
 
 
 _Windows 10:_
