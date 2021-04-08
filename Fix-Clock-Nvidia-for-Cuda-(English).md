@@ -10,7 +10,7 @@ _Linux:_
 
 <a href="https://ibb.co/2ybwzMv"><img src="https://i.ibb.co/s2BhT1K/MMPOS.jpg" alt="MMPOS" border="0"></a>
 
-**RaveOS:** In Set you have to specify this parameter: `oc --fixclk=value`, , in this example we are putting 750Mhz to the RTX 3070
+**RaveOS:** In Set you have to specify this parameter: `oc --fixclk=value`, , in this example we are putting 765Mhz to the RTX 3070
 
 <a href="https://ibb.co/zFBSNQP"><img src="https://i.ibb.co/m02HSbh/RaveOS.jpg" alt="RaveOS" border="0"></a>
 
