@@ -14,6 +14,8 @@ _Linux:_
 
 <a href="https://ibb.co/zFBSNQP"><img src="https://i.ibb.co/m02HSbh/RaveOS.jpg" alt="RaveOS" border="0"></a>
 
+**SMOS:** Se necesita hacer a través del bash command, hay que especificar el parámetro:`sudo nvidia-smi -i $GPU -lgc $VALUE` . Recordar hay que usar la web base64encode.org para convertirlo.
+
 
 _Windows 10:_
 
