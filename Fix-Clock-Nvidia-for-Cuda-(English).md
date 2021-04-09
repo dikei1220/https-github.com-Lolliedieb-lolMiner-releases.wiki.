@@ -37,11 +37,13 @@ CTRL + UP / CTRL + DOWN: increase/decrease the frequency of the selected dot by 
 Values: 
 | GPU        | Range       | 
 | ------------- |:-------------:| 
+| 2060 | 1000 - 1050 |
 | 2070 | 1000 - 1050 |
 | 2080 | 1110 - 1160 |
 | 3060 (1) | 1070 - 1120 |
 | 3060ti | 1320 - 1370 |
 | 3070 | 750 - 800 |
 | 3080 | 1010 - 1060 |
+| 3090 | 1120 - 1170 |
 
 (1) Windows with 470.05 Drivers
