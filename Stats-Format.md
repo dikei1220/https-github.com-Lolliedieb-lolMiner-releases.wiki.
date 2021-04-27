@@ -16,10 +16,10 @@ The "wall of stats". To personalize your stats there are different parameters, y
 
 
 For example, that will show all information:
---statsformat speed,poolHr,shares,sharesPerMin,bestShare,power,hrPerWatt,wattPerHr,coreclk,memclk,coreT,juncT,memT,fanPct
+_--statsformat speed,poolHr,shares,sharesPerMin,bestShare,power,hrPerWatt,wattPerHr,coreclk,memclk,coreT,juncT,memT,fanPct_
 ![All Stats](https://i.ibb.co/g3q5R0X/allstats.jpg)
 
 
 For example, that will show all information:
---statsformat speed,poolHr,shares,sharesPerMin,hrPerWatt,wattPerHr
+_--statsformat speed,poolHr,shares,sharesPerMin,hrPerWatt,wattPerHr_
 ![Partial Stats](https://i.ibb.co/zH5bjGB/parcialstats.jpg)
