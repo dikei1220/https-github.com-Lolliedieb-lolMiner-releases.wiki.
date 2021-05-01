@@ -49,4 +49,6 @@ Values:
 | 3080 | 1010 - 1060 |
 | 3090 | 1120 - 1170 |
 
+_Note: Very high Memory OC need higher Clock_
+
 (1) Windows with 470.05 Drivers
