@@ -20,11 +20,13 @@ El "Muro de las estadísticas". Para personalizar tus estadísticas hay diferent
 
 Por ejemplo, esto mostrará toda la información:
 _--statsformat speed,poolHr,shares,sharesPerMin,bestShare,power,hrPerWatt,wattPerHr,coreclk,memclk,coreT,juncT,memT,fanPct_
+
 ![All Stats](https://i.ibb.co/g3q5R0X/allstats.jpg)
 
 
 Por ejemplo, esto únicamente mostrará 6 campos seleccionados:
 _--statsformat speed,poolHr,shares,sharesPerMin,hrPerWatt,wattPerHr_
+
 ![Partial Stats](https://i.ibb.co/zH5bjGB/parcialstats.jpg)
 
 Por ejemplo, esto mostrará los siguientes campos:
