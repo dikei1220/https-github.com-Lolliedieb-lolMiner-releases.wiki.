@@ -27,6 +27,7 @@ _--statsformat speed,poolHr,shares,sharesPerMin,bestShare,power,hrPerWatt,wattPe
 
 For example, that will show Speed, Pool Hr, Shares, Shares Per Minute, Hr Per Watts and Watt Per Hr :
 _--statsformat speed,poolHr,shares,sharesPerMin,hrPerWatt,wattPerHr_
+
 ![Partial Stats](https://i.ibb.co/zH5bjGB/parcialstats.jpg)
 
 For example, that will show Speed, Inflated Speed, Pool Hr, Shares, Shares Per Minute, Best Share, Hr Per Watts and Watt Per Hr, Core Clock, Mem Clock, Core Temp, Core Junction Temp, Memory Temp and Fan Percentage :
