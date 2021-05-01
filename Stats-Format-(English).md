@@ -1,7 +1,7 @@
 The "wall of stats". To personalize your stats there are different parameters, you only need to select what you want to show. You have to add _--statsformat_ and values separeted by comma:
 
 * speed : Speed in Mhs of the rig
-* inflatedHr : Inflated Speed Mhs to compare it to the inflated miners
+* inflatedHr : Inflated Speed Mhs to compare it to the stats of inflated miners
 * poolHr: Pool Average, it will say how luck or unluck are you. If it is higher than the speed that means you are lucky if it is lower you are in an unlucky moment. That will take in long time to the same as speed.
 * shares: Number of shares submited. A: parameter is shares, S: are Stales and Hw: are Hardware errors
 * sharesPerMin : Number of shares accepted per minute
