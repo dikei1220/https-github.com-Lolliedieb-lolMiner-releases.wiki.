@@ -3,6 +3,7 @@
 * [lolMiner 1.25 Extra Parameters](https://github.com/Lolliedieb/lolMiner-releases/wiki/lolMiner-1.25---Extra-Parameters-(English)) 
 * [Dual Mining & Splitting modes](https://github.com/Lolliedieb/lolMiner-releases/wiki/Dual-Mining-&-Splitting-modes-(English))
 * [Fix Clock for Nvidia by OS](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-by-OS-(English))
+* [Fix Clock for Nvidia by lolMiner](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-by-lolMiner-(English))
 * [Stats Format](https://github.com/Lolliedieb/lolMiner-releases/wiki/Stats-Format-(English))
 
 Many thanks for using lolMiner
