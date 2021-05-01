@@ -1,4 +1,6 @@
 To fix the clock using directly lolMiner only for Turing and Ampere by parameter. Remember the steps of the Core Clock are 15Mhz
+
+If power limit or heat limit is throttling the card is just using as high clock as possible - so our fixed clock is rather a maximum clock / clock limiter
  
 Just need to use --cclk separated by commas. * is used to skip GPU. 
 
