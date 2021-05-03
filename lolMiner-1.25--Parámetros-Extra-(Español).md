@@ -2,6 +2,9 @@
 
 **--worker arg** arg le permitirá especificar el nombre del trabajador de su equipo.
 
+**--devices arg** arg te permite seleccionar las GPU a usar separadas por commas como _--devices 0,1,3,4_ solo seleccionar las GPU 0,1,3,4 y saltará la 2
+
+
 **--dualmode arg** arg = `zil` or `etc`. Modo dual utilizado. Opciones permitidas: 
 
 **--dualmode zil** se minará ETH o ETC con ZIL. se recomienda añadir el parámetro **--enablezilcache**, para activar la caché ZIL para un intercambio rápido, entre ETH/ETC y ZIL. Ejemplos :
