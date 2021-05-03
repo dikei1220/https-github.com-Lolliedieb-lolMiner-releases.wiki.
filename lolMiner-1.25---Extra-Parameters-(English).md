@@ -1,6 +1,7 @@
 ## Extra parameters (Dual Mining, Worker, Zombie-Mode, Dual Kernel CUDA, ...)
 
 **--worker arg** arg will allow you to specify worker name of your rig.
+**--devices arg** arg has to be devices number separated by commas like _--devices 0,1,3,4_ will select GPU 0,1,3,4 and skip 2
 
 **--dualmode arg** arg = `zil` or `etc`. Dual mode used. Allowed options: 
 
