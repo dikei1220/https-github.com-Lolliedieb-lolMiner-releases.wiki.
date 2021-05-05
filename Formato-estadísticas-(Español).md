@@ -1,5 +1,7 @@
 El "Muro de las estadísticas". Para personalizar tus estadísticas hay diferentes parámetros, sólo tienes que seleccionar lo que quieres mostrar, se requiere añadir _--statsformat_ y los campos separados por comas:
 
+* gpuName : Nombre corto de GPU, ej. "RX 580" o "RTX 2060"
+* algo : El algoritmo actual de minado. Solo visible en dual mode
 * speed : Velocidad en Mhs del rig
 * inflatedHr : Velocidad en Mhs inflada para comparar con los valores de los miners que inflan
 * poolHr: Promedio de Mhs en Pool, dirá que tan afortunado o desafortunado eres. Si es mayor que la velocidad significa que tienes suerte si es menor estás en un momento de mala suerte. Esto llevará en mucho tiempo a lo mismo que la velocidad.
