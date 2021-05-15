@@ -35,7 +35,12 @@ It is really important to don’t change OC during mining, each time you change 
 
 >SM-5.4.89-1-a20.40-n460.39-v1301.img.xz
 
-<a href="https://ibb.co/ZGsCB14"><img src="https://i.ibb.co/ZGsCB14/SMOS.jpg" alt="SMOS" border="0"></a>
+> <a href="https://ibb.co/ZGsCB14"><img src="https://i.ibb.co/ZGsCB14/SMOS.jpg" alt="SMOS" border="0"></a>
+
+**minerstat(460.39):**
+It can be done in the shell by nvidia-update or with front end _nvidia-update --install 460.39__
+> <a href="https://ibb.co/F4hX465"><img src="https://i.ibb.co/N2Fr2x9/minerstats.jpg" alt="Minerstats" border="0"></a>
+> <a href="https://ibb.co/mJKb3Wr"><img src="https://i.ibb.co/4WLKHrw/minerstats2.jpg" alt="Minerstats" border="0"></a>
 
 **Linux (460.39):**
 
