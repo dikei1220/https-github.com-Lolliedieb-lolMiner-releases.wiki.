@@ -6,7 +6,7 @@
 
 
 **iGPU will not mine"**
-> Any integrated GPU will work with lolMiner. All integrated GPU like Intel HD620, 630, Vega 3, Vega 8, 10, ... will not work with lolMiner. lolMiner need dedicated GPU to work.
+> Any integrated GPU will NOT work with lolMiner. All integrated GPU like Intel HD620, 630, Vega 3, Vega 8, 10, ... will not work with lolMiner. lolMiner need dedicated GPU to work.
 
 **Old Cards**
 > Any Nvidia GPU before Fermi/Kepler/Maxwell will not work like GTX 770.
@@ -20,7 +20,6 @@
 **Loop Solution for crash**
 > When the driver crashes it is useful to have a loop solution in the bat file. That automatically after 10 seconds it restarts the miner. After 1.29 the loop solution is applied in all algorithms. Please try to be updated. 
 
- 
 **Strange Characters in console**
 > That usually come to try to show the console with colours, if that happens you only need to add parameter --nocolor in the config lane. That will let you to see it without that characters.
 
