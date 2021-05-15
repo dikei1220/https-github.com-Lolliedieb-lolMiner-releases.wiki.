@@ -5,6 +5,7 @@
 * [Fix Clock for Nvidia by OS](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-by-OS-(English))
 * [Fix Clock for Nvidia by lolMiner](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-by-lolMiner-(English))
 * [Stats Format](https://github.com/Lolliedieb/lolMiner-releases/wiki/Stats-Format-(English))
+* [FAQ - Common Errors](https://github.com/Lolliedieb/lolMiner-releases/wiki/FAQ---Common-Errors)
 
 Many thanks for using lolMiner
 
@@ -15,7 +16,7 @@ Many thanks for using lolMiner
 * [Fix Clock para Nvidia por OS](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-para-Cuda-por-OS-(Espa%C3%B1ol))
 * [Fix Clock para Nvidia por lolMiner](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-por-lolMiner-(Espa%C3%B1ol))
 * [Formato estadísticas](https://github.com/Lolliedieb/lolMiner-releases/wiki/Formato-estad%C3%ADsticas-(Espa%C3%B1ol))
-
+* [FAQ - Errores comunes](https://github.com/Lolliedieb/lolMiner-releases/wiki/FAQ---Errores-comunes)
 
 Muchas gracias por usar lolMiner
 
