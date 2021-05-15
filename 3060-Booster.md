@@ -8,25 +8,37 @@ It is really important to don’t change OC during mining, each time you change 
 <a href="https://ibb.co/RpnGMP1"><img src="https://i.ibb.co/RpnGMP1/3060.jpg" alt="3060" border="0"></a>
 
 
-MMPOS (460.39):  Write in the console:  
-mmp nvidia-install 
-And then select 460.39
+**MMPOS (460.39):**
+>  Write in the console:  
 
-RAVEOS (460.32): You only need to open the console and do: 
-upgrade -b 8593-1863
+> _mmp nvidia-install_
+
+> And then select 460.39
+
+**RAVEOS (460.32):**
+> You only need to open the console and do: 
+
+> _upgrade -b 8593-1863_
 
 <a href="=https://ibb.co/FB4gG8k"><img src="https://i.ibb.co/YtBpvf4/RaveOS.jpg" alt="RaveOS" border="0"></a>
 
-HiveOS (460.39): You can go to run command and just enter:
-nvidia-driver-update 460.39
+**HiveOS (460.39):**
+> You can go to run command and just enter:
 
-<a href="https://ibb.co/QkkFF15"><img src="https://i.ibb.co/9hh99CM/hiveOS.jpg" alt="HiveOS" border="0"></a>
+> _nvidia-driver-update 460.39_
 
-SMOS (460.39): Go to “>_ Advanced Options …” in the rig and later select the special distribution with the 460.39 driver.
-SM-5.4.89-1-a20.40-n460.39-v1301.img.xz
+> <a href="https://ibb.co/QkkFF15"><img src="https://i.ibb.co/9hh99CM/hiveOS.jpg" alt="HiveOS" border="0"></a>
+
+**SMOS (460.39):**
+
+>Go to “>_ Advanced Options …” in the rig and later select the special distribution with the 460.39 driver.
+
+>SM-5.4.89-1-a20.40-n460.39-v1301.img.xz
 
 <a href="https://ibb.co/ZGsCB14"><img src="https://i.ibb.co/ZGsCB14/SMOS.jpg" alt="SMOS" border="0"></a>
 
-Linux (460.39):
-wget https://us.download.nvidia.com/XFree86/Linux-x86_64/460.39/NVIDIA-Linux-x86_64-460.39.run
-sh NVIDIA-Linux-x86_64-460.39.run
+**Linux (460.39):**
+
+> _wget https://us.download.nvidia.com/XFree86/Linux-x86_64/460.39/NVIDIA-Linux-x86_64-460.39.run_
+
+> _sh NVIDIA-Linux-x86_64-460.39.run_
