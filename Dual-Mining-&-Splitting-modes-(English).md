@@ -31,3 +31,13 @@ To configure this follow the following steps:
  * b) Add the parameters --dualmode etc --dualstratum *ETCWALLET*.*ETCWORKER*@*ETCPOOL*:*ETCPORT* to your command line arguments or your extra user parameters. Replace here the elements in *ETCWALLET*, *ETCWORKER*, *ETCPOOL* and *ETCPORT* with your desired ETC mining credentials. Note that <ETCSTRATUM> understands prefixes like "tls://" to activate ssl on the additional stratum connection.
  * c) (Optionally) You can use --dualdevices to select those devices that shall mine ETC instead of ETH. The default is that all 3G and 4G cards will be pointed to the secondary algorithm, while the other cards remain on the primary one. The parameter takes a comma separated list of numbers, which needs to be a subset of the devices running. For example the combination of --devices 0,1,2,4,5 --dualdevices 4,5 will cause Cards 0,1 and 2 to mine the first algorithm, cards 4 and 5 the second algorithm and card 3 to be skipped from mining. 
 
+### Use case C: Mine ETH/ETC two different pools
+
+Usually miners allow using only mining at one pool at time. With lolMiner 1.25 the miner starts supporting to create two connections to your favorite pools and mine ETH/ETC within the same miner instance. Concretely this mode was build to mine to share RIGS. 
+
+To configure this follow the following steps:
+
+ * a) Configure your ETH/ETC mining as normal, no further settings are required.
+ * b1) Add the parameters for ETH: --dualmode eth --dualstratum *ETHWALLET*.*ETHWORKER*@*ETHPOOL*:*ETHPORT* to your command line arguments or your extra user parameters. Replace here the elements in *ETHWALLET*, *ETHWORKER*, *ETHPOOL* and *ETHPORT* with your desired ETH mining credentials. Note that <ETHSTRATUM> understands prefixes like "tls://" to activate ssl on the additional stratum connection.
+ * b2) Add the parameters for ETC: --dualmode etc --dualstratum *ETCWALLET*.*ETCWORKER*@*ETCPOOL*:*ETCPORT* to your command line arguments or your extra user parameters. Replace here the elements in *ETCWALLET*, *ETCWORKER*, *ETCPOOL* and *ETCPORT* with your desired ETC mining credentials. Note that <ETCSTRATUM> understands prefixes like "tls://" to activate ssl on the additional stratum connection.
+ * c) You have now to select which devices to use in each connection, with --dualdevices you will select with GPU mine in the 2nd pool, while the other cards remain on the primary one. The parameter takes a comma separated list of numbers, which needs to be a subset of the devices running. For example the combination of --devices 0,1,2,4,5 --dualdevices 4,5 will cause Cards 0,1 and 2 to mine in first pool, cards 4 and 5 the 2nd pool and card 3 to be skipped from mining. 
