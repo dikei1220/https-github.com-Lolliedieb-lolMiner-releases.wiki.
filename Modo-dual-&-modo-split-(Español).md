@@ -40,3 +40,16 @@ Para configurarlo sigue los siguientes pasos:
 
 Ejemplo:
 ETH + ETC: lolMiner --algo ETHASH --pool $POOL --user $ETHWALLET.$ETHWORKER --worker $WORKER  --dualmode etc --dualstratum ETCWALLET.ETCWORKER@ETCPOOL:ETCPORT 
+
+### Caso de uso C: Minar ETH/ETC en dos pools diferentes
+
+Normalmente los mineros permiten usar sólo la minería en un pool a la vez. Con lolMiner 1.25 el minero empieza a soportar la creación de dos conexiones a tus pools favoritos y minar ETH/ETC dentro de la misma instancia del minero. Concretamente este modo fue construido para minar para compartir RIGS. 
+
+Para configurarlo sigue los siguientes pasos:
+
+ * a) Configure su minado de ETH/ETC de forma normal, no se requieren más ajustes.
+ * b1) Añada los parámetros para ETH: --dualmode eth --dualstratum *ETHWALLET*.*ETHWORKER*@*ETHPOOL*:*ETHPORT* a sus argumentos de línea de comandos o a sus parámetros de usuario adicionales. Sustituya aquí los elementos de *ETHWALLET*, *ETHWORKER*, *ETHPOOL* y *ETHPORT* por sus credenciales de minería ETH deseadas. Tenga en cuenta que <ETHSTRATUM> entiende prefijos como "tls://" para activar ssl en la conexión del estrato adicional.
+ * b2) Añade los parámetros para ETC: --dualmode etc --dualstratum *ETCWALLET*.*ETCWORKER*@*ETCPOOL*:*ETCPORT* a sus argumentos de línea de comandos o a sus parámetros de usuario adicionales. Sustituya aquí los elementos de *ETCWALLET*, *ETCWORKER*, *ETCPOOL* y *ETCPORT* por sus credenciales de minería ETC deseadas. Tenga en cuenta que <ETCSTRATUM> entiende prefijos como "tls://" para activar ssl en la conexión del estrato adicional.
+ * c) Ahora tienes que seleccionar qué dispositivos usar en cada conexión, con --dualdevices seleccionarás con GPU minar en el 2º pool, mientras que las otras tarjetas se quedan en el primario. El parámetro toma una lista de números separados por comas, que tiene que ser un subconjunto de los dispositivos que se ejecutan. Por ejemplo, la combinación de --devices 0,1,2,4,5 --dualdevices 4,5 hará que las tarjetas 0,1 y 2 minen en el primer pool, las tarjetas 4 y 5 en el segundo pool y la tarjeta 3 no minará. 
+
+
