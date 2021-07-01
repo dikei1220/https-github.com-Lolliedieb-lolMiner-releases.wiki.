@@ -1,8 +1,59 @@
-This page describes to start basic mining with lolMiner 1.0 and newer.
-
-For a detailed list of more lolMiner parameters you can check `lolMiner -h`.
+This page describes to start basic mining parameters for lolMiner 1.0 and newer. For a detailed list of more lolMiner parameters you can check `lolMiner -h`.
 
 ## Basic parameters in command line
+
+
+**--devices arg** arg has to be devices number separated by commas like _--devices 0,1,3,4_ will select GPU 0,1,3,4 and skip 2 or AMD or NVIDIA
+
+**--tstop** to stop any mining operation on a GPU at the given temperature.  _--tstop 75_ Will stop mining that GPU at 75C
+
+**--tstart** to allow a restart of the card below a lower temperature _--tstart 50_ Will restart mining that GPU at 50C
+
+**--tmode edge/junction/memory** to apply the scheme to edge (chip), junction (hotspot) or memory temperature. If a GPU does not have the required sensors the chip temperature will be used as a back up - if no sensors are available at all the parameters will be ignored.
+
+**--statsformat extended** it is a fast way to show a nice wall of stats
+
+**--dagdelay [=arg(=0)]** (=-1) Delay between creating the DAG buffers for the GPUs. Negative values enable parallel generation (default).
+
+**--cclk arg (=*)** The core clock used for the NVidia GPUs, cards are separated with a comma. "*" can be used to skip a card. Only for Nvidia Ampere and Turing
+
+**--watchdog off/exit/script**  The options are:
+
+_off_ this will do nothing except for printing a message. If only a single card did crash and not the whole driver this means the other cards will continue mining.
+
+_exit_ this will close the miner with a exit code of 42. This can be picked up by the .sh or .bat script that did start the miner (an example is provided in mine_eth.sh and mine_eth.bat) so the miner will restart after some seconds of pause. This is recommended option for Nvidia cards.
+
+_script_ With this option the miner will call an external script (default path is current working directory and there emergency.sh / .bat), which can be configured with --watchdogscript. The moment the script is called the miner itself will exit. The script needs to take care about rebooting the rig or informing the OS what to do. Since this was the default behavior in previous versions it also is the default. In case the script can not be found, an error will be printed and the miner will continue as with --watchdog off.
+
+**--enablezilcache** that will enable a cache for a fast swap in the dual mining
+
+**--dualmode arg** where arg = zil or etc. Dual mode used. Allowed options:
+
+**--dualmode zil** will mine ETH or ETC with ZIL. it is recommened to add the parameter --enablezilcache, to enable ZIL cache for a fast swap, between ETH/ETC and ZIL. Examples :
+
+Shardpool.io: _lolMiner --algo ETHASH --pool eu1-zil.shardpool.io:3333 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --pass zil12kfcrls87pzqnneratejhk8xa3wdzlhrdl7w5g@eth.2miners.com:2020@ --enablezilcache --dualmode zil --dualstratum 0x155da78b788ab54bea1340c10a5422a8ae88142f@eth.2miners.com:2020_
+
+rustpool.xyz: _lolMiner --algo ETHASH --pool eu-zil.rustpool.xyz:8008 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f --pass 0x155da78b788ab54bea1340c10a5422a8ae88142f@eth.2miners.com:2020@4G --worker workerName --enablezilcache --dualmode zil --dualstratum 0x155da78b788ab54bea1340c10a5422a8ae88142f@eth.2miners.com:2020_
+
+k1pool.com: _lolMiner --algo ETHASH --pool eu.ethash.k1pool.com:5000 --user K1LOGIN.workerName --enablezilcache --dualmode zil --dualstratum 0x155da78b788ab54bea1340c10a5422a8ae88142f@eth.2miners.com:2020_
+
+ezil.me: _lolMiner --algo ETHASH --pool eu.ezil.me:5555 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.zil12kfcrls87pzqnneratejhk8xa3wdzlhrdl7w5g --worker workerName --enablezilcache --dualmode zil --dualstratum 0x155da78b788ab54bea1340c10a5422a8ae88142f@eth.2miners.com:2020_
+
+**--dualmode etc** will mine Mine ETH on 8G cards while mining ETC on 4G cards. Examples :_lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f --dualmode etc --dualstratum 0x155da78b788ab54bea1340c10a5422a8ae88142f@etc.2miners.com:1010_
+
+**--ethstratum arg** where arg = ETHPROXY or ETHV1, this Ethash stratum mode. Available options: ETHPROXY: Ethereum Proxy and ETHV1: EthereumStratum/1.0.0 (Nicehash), when you are mining in dual mode, you can select --ethstratum ETHPROXY,ETHV1, that will make that the 2nd connection the ETH or ETC will use the Nicehash connection. Useful to mine dual mining ETH + ZIL when the ETH pool is Nicehash.
+
+**--4g-alloc-size arg** where arg sets the DAG size (in MByte) the miner is allowed to use on 4G cards. Can be a comma separated list of values for each card. Suggested values in Linux: 4080, 4078, 4076, 4074, 4072, 4070, 4068, 4064, 4062. The higher value the most performance.
+
+**--zombie-tune arg** where arg sets the Zombie tune mode, it can be auto or values from 0-16. When Zombie Mode is run it will inform after the auto tune, which is the optimal values, so it can be used as a parameter next time, avoiding the autotune time. Example:
+
+First time run, with _--4g-alloc-size 4080_. lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.WorkerName --4g-alloc-size 4080 --zombie-tune auto
+
+When you have the Zombie-tune Value and _--4g-alloc-size 4080_ : lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.WorkerName --4g-alloc-size 4080 --zombie-tune 15.25
+
+
+## Basic miner information
+
 
 There are three things lolMiner needs in any case to know to start mining, namely
 - the algorithm to mine
