@@ -16,6 +16,7 @@ There are two ways in lolMiner how to specify the algorithm you want to mine. Yo
 The first option is **--algo (-a)** followed by one of the following algorithm names
 Parameter | Algorithm
 | ------------- | ------------- |
+| AUTOLYKOS2 | Autolykos V2  |
 | BEAM-I | BeamHash I  |
 | BEAM-II | BeamHash II  |
 | BEAM-III | BeamHash III |
