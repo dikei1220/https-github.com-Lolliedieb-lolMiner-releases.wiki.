@@ -17,8 +17,6 @@ The first option is **--algo (-a)** followed by one of the following algorithm n
 Parameter | Algorithm
 | ------------- | ------------- |
 | AUTOLYKOS2 | Autolykos V2  |
-| BEAM-I | BeamHash I  |
-| BEAM-II | BeamHash II  |
 | BEAM-III | BeamHash III |
 | C29AE   | Cuckoo 29  |
 | C29D  | CuckarooD 29  |
