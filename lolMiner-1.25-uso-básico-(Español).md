@@ -19,8 +19,7 @@ La primera opción es **--algo (-a)** seguido de uno de los siguientes nombres d
 
 Parámetro | Algoritmo
 | ------------- | ------------- |
-| BEAM-I | BeamHash I  |
-| BEAM-II | BeamHash II  |
+| AUTOLYKOS2 | Autolykos V2  |
 | BEAM-III | BeamHash III |
 | C29AE   | Cuckoo 29  |
 | C29D  | CuckarooD 29  |
