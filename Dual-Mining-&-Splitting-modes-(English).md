@@ -9,7 +9,9 @@ To configure this follow the following steps
 * a) Configure your ZIL mining as normal. In case you want to use ETC+ZIL select ETCHASH as algorithm parameter. The configuration needs to be complete, that means if you stop after this point you should use normal ZIL+ETH or ZIL+ETC dual mining as you are used to.
 * b) Add the parameter --dualmode zil --dualstratum *ETHWALLET*.*ETHWORKER*@*ETHPOOL*:*ETHPORT* to your command line arguments or your extra user parameters. Replace here the elements in *ETHWALLET*, *ETHWORKER*, *ETHPOOL* and *ETHPORT* with your desired ETH mining credentials. Note that <ETHSTRATUM> understands prefixes like "tls://" to activate ssl on the additional stratum connection.
 
-Now the miner will create both connections on startup, but will mine the ETH (or ETC) shares on the extra connection, which can be different to the first one, which will only be used when mining ZIL. Note that the parameter will automatically enabling the ZIL cache mode on your 6 & 8G cards. 
+Now the miner will create both connections on startup, but will mine the ETH (or ETC) shares on the extra connection, which can be different to the first one, which will only be used when mining ZIL.
+ 
+Note that  to enabling the ZIL cache mode on your 6Gb & 8Gb cards you need to add the parameter _--enablezilcache_ 
 
 Examples for each pool:
 
