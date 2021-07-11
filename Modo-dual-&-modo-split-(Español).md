@@ -13,7 +13,9 @@ Para configurar esto sigue los siguientes pasos:
 * b) Añada el parámetro --dualmode zil --dualstratum ETHWALLET.ETHWORKER@ETHPOOL:ETHPORT a sus argumentos de línea de comandos o a sus parámetros de usuario adicionales. Sustituya aquí los elementos de ETHWALLET, ETHWORKER, ETHPOOL y ETHPORT y por sus valores deseados de minería ETH/ETC. Tener en cuenta que entiende los prefijos como "tls://" para activar ssl en la conexión de stratum adicional.
 
 
-Ahora el minero creará ambas conexiones al iniciarse, pero minará shares ETH (o ETC) en la conexión extra, que puede ser diferente a la primera, que sólo se utilizará cuando se mine ZIL. Tener en cuenta que el parámetro activará automáticamente el modo de caché ZIL en tus tarjetas de 6 Gb y 8 Gb también.
+Ahora el minero creará ambas conexiones al iniciarse, pero minará shares ETH (o ETC) en la conexión extra, que puede ser diferente a la primera, que sólo se utilizará cuando se mine ZIL. 
+
+Tener en cuenta que para activar automáticamente el modo de caché ZIL en tus tarjetas de 6 Gb y 8 Gb hay que añadir el parámetro _enablezilcache_
 
 Ejemplos:
 
