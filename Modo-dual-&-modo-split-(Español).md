@@ -15,7 +15,7 @@ Para configurar esto sigue los siguientes pasos:
 
 Ahora el minero creará ambas conexiones al iniciarse, pero minará shares ETH (o ETC) en la conexión extra, que puede ser diferente a la primera, que sólo se utilizará cuando se mine ZIL. 
 
-Tener en cuenta que para activar automáticamente el modo de caché ZIL en tus tarjetas de 6 Gb y 8 Gb hay que añadir el parámetro _enablezilcache_
+Tener en cuenta que para activar automáticamente el modo de caché ZIL en tus tarjetas de 6 Gb y 8 Gb hay que añadir el parámetro _--enablezilcache_
 
 Ejemplos:
 
