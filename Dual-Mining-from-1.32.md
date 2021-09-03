@@ -15,9 +15,10 @@ Note that  to enabling the ZIL cache mode on your 6Gb & 8Gb cards you need to ad
 
 Examples for each pool:
 
-* lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --enablezilcache --dualmode zil --dualpool eu1-zil.shardpool.io:3333 --dualuser 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --dualpass zil12kfcrls87pzqnneratejhk8xa3wdzlhrdl7w5g@eth.2miners.com:2020
-* lolMiner --algo ETHASH --pool eu-eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --enablezilcache --dualpool eu-zil.rustpool.xyz:8008 --dualuser 0x155da78b788ab54bea1340c10a5422a8ae88142f --dualpass zil12kfcrls87pzqnneratejhk8xa3wdzlhrdl7w5g@eth.2miners.com:2020@4G
+* _lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --enablezilcache --dualmode zil --dualpool eu1-zil.shardpool.io:3333 --dualuser 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --dualpass zil12kfcrls87pzqnneratejhk8xa3wdzlhrdl7w5g@eth.2miners.com:2020_
 
-* lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --enablezilcache --dualmode zil --dualpool eu.ethash.k1pool.com:5000 --dualuser KrSv2Z38HuG4fkJBiP4QgYE6osoFfUECmD7
+* _lolMiner --algo ETHASH --pool eu-eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --enablezilcache --dualmode zil --dualpool eu-zil.rustpool.xyz:8008 --dualuser 0x155da78b788ab54bea1340c10a5422a8ae88142f --dualpass zil12kfcrls87pzqnneratejhk8xa3wdzlhrdl7w5g@eth.2miners.com:2020@4G_
 
-* lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f --enablezilcache -- dualmode zil --dualpool eu.ezil.me:5555 --dualuser 0x155da78b788ab54bea1340c10a5422a8ae88142f.zil1qxl9lwat8rvf3lkn4fluexzh9pwemn0x94nn5a
+* _lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f.workerName --enablezilcache --dualmode zil --dualpool eu.ethash.k1pool.com:5000 --dualuser KrSv2Z38HuG4fkJBiP4QgYE6osoFfUECmD7_
+
+* _lolMiner --algo ETHASH --pool eth.2miners.com:2020 --user 0x155da78b788ab54bea1340c10a5422a8ae88142f --enablezilcache --dualmode zil --dualpool eu.ezil.me:5555 --dualuser 0x155da78b788ab54bea1340c10a5422a8ae88142f.zil1qxl9lwat8rvf3lkn4fluexzh9pwemn0x94nn5a_
