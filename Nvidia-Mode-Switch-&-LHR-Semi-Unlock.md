@@ -11,7 +11,7 @@ This is a power saving kernel an the default. Good choice for all Non-LHR Nvidia
 This is the default mode for RTX 3060 LHR v1 when the driver version is between **455.45.01** and **460.39**. Gives up to 80% of the potential unlocked raw card performance. In case other driver versions get used, the miner falls back to the LHR2 mode.
 
 ## --mode LHR2
-This mode is made for all other LHR (v2) Nvidia RTX 3000 cards. Performance is approximately 67-69% of the potential unlocked raw card performance.  
+This mode is made for all other LHR (v2) Nvidia RTX 3000 cards. Performance is approximately 67-69% of the potential unlocked raw card performance. Note that the mode was tested with a locked core clock of 1500 mhz on all cards. Higher core clock may work, but could also cause the lock to trigger on your card, especially when the card is only power limit bound and has no fixed upper core bound!
 
 ## --mode LHRLP
 
