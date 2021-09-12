@@ -1,4 +1,4 @@
-# Notes about --mode switch on Nvidia GPUs (also for LHR control)
+# --mode switch on Nvidia GPUs (also for LHR control)
 --mode controls the loaded kernel and operation modes for Nvidia GPUs. AMD cards will currently ignore this parameter completely. You can set one value for the whole rig or provide a comma separated list of values to get individual modes for each card. Amd cards can use any value at the moment. 
 
 ## --mode a
