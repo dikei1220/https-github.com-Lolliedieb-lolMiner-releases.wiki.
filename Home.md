@@ -4,10 +4,12 @@
 * [Dual Mining from 1.32](https://github.com/Lolliedieb/lolMiner-releases/wiki/Dual-Mining-from-1.32)
 * [Dual Mining & Splitting modes until 1.31](https://github.com/Lolliedieb/lolMiner-releases/wiki/Dual-Mining-&-Splitting-modes-(English_until_1.31))
 * [3060 Booster](https://github.com/Lolliedieb/lolMiner-releases/wiki/3060-Booster) 
+* [Nvidia Mode Switch & LHR Semi Unlock](https://github.com/Lolliedieb/lolMiner-releases/wiki/Nvidia-Mode-Switch-&-LHR-Semi-Unlock)
 * [Fix Clock for Nvidia by OS](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-by-OS-(English))
 * [Fix Clock for Nvidia by lolMiner](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-by-lolMiner-(English))
 * [Stats Format](https://github.com/Lolliedieb/lolMiner-releases/wiki/Stats-Format-(English))
 * [FAQ - Common Errors](https://github.com/Lolliedieb/lolMiner-releases/wiki/FAQ---Common-Errors)
+
 
 
 Many thanks for using lolMiner
@@ -18,6 +20,7 @@ Many thanks for using lolMiner
 * [Modo dual a partir de 1.32](https://github.com/Lolliedieb/lolMiner-releases/wiki/Modo-dual-(Espa%C3%B1ol_a_apartir_1.32))
 * [Modo dual & modo split hasta 1.31](https://github.com/Lolliedieb/lolMiner-releases/wiki/Modo-dual-&-modo-split-(Espa%C3%B1ol_hasta_1.31))
 * [3060 Booster](https://github.com/Lolliedieb/lolMiner-releases/wiki/3060-Booster) 
+* [Nvidia Mode Switch & LHR Semi Unlock](https://github.com/Lolliedieb/lolMiner-releases/wiki/Nvidia-Mode-Switch-&-LHR-Semi-Unlock-(Espa%C3%B1ol))
 * [Fix Clock para Nvidia por OS](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-para-Cuda-por-OS-(Espa%C3%B1ol))
 * [Fix Clock para Nvidia por lolMiner](https://github.com/Lolliedieb/lolMiner-releases/wiki/Fix-Clock-Nvidia-for-Cuda-por-lolMiner-(Espa%C3%B1ol))
 * [Formato estadísticas](https://github.com/Lolliedieb/lolMiner-releases/wiki/Formato-estad%C3%ADsticas-(Espa%C3%B1ol))
