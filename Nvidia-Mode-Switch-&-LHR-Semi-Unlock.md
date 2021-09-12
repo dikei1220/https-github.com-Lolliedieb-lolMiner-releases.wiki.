@@ -33,5 +33,6 @@ If you have a card not starting unlocked, try a value of -20 as a start, lower m
 For all LHR GPUs that were started with one of the LHR modes and the fan glitch gets detected, the card will leave the LHR mode to unlock the full performance of the card. In most situations the appearance of the glitch triggers a one time card crash that makes the mining OS restart the mining software. The glitch detection allows to mine in LHR mode until a glitch on one card appears. On the next restart of the software the glitches cards will then mine with LHR mode disabled while the remaining cards keep on mining in their configuration. 
 
 ## Examples
-_--mode LHR2 --lhrtune 10,5,-15,15,15,15_ that will apply all the rig mode LHR2 and to GPU0 tune 10, GPU1 tune 5, GPU2 tune -15, and GPU 3/4/5tune 15
+_--mode LHR2 --lhrtune 10,5,-15,15,15,15_ that will apply all the rig mode LHR2 and to GPU0 tune 10, GPU1 tune 5, GPU2 tune -15, and GPU 3/4/5 tune 15
+
 _--mode b,b,b,LHRLP,b,b,b,b --lhrtune -3_ that will apply mode b to all rig except to GPU3 that will use mode LHRLP, the tune value will only affect the LHR Kernel, in this case the LHRLP with a tune value of -3.
