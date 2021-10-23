@@ -1,3 +1,4 @@
+# Esto es recomendado para la versión 1.32a. Las nuevas versiones ya lo hacen automáticamente.
 # --mode switch en GPUs Nvidia (también para el control de LHR)
 --mode controla el kernel cargado y los modos de operación para las GPUs Nvidia. Las tarjetas AMD actualmente ignoran este parámetro por completo. Puedes establecer un valor para todo el equipo o proporcionar una lista de valores separados por comas para obtener modos individuales para cada tarjeta. Las tarjetas AMD pueden usar cualquier valor por el momento. 
 
